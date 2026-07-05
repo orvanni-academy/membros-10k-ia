@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "email": "ricardo@teste.com",
+    "passwordHash": "$2b$10$oB4cR13YWjnHMMAQl48Nzeuyq7cZWqKQTfRcnQgXQNCvSOwvZYHoC",
+    "name": "Ricardo Teste",
+    "addedAt": "2026-07-05T00:23:47.784Z"
+  }
+]
