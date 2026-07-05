@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard — Operação 10K IA</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="brand">ORVANNI<span>.</span> OPERAÇÃO 10K IA</div>
+    <a href="/logout" class="logout-link">Sair</a>
+  </div>
+
+  <div class="dash-wrap">
+
+    <div class="welcome-card">
+      <div class="eyebrow">Sua operação começa agora</div>
+      <h1>ACESSO LIBERADO.</h1>
+      <p>
+        Não foi sorte. Foi decisão. A partir de agora você não é mais espectador da nova
+        economia — é operador. A pergunta não é se vai dar certo. É se você vai executar
+        todo dia, mesmo nos dias em que a motivação não aparecer.
+      </p>
+      <div class="tagline">Motivação acaba. Obsessão não.</div>
+    </div>
+
+    <div class="section-title">Módulos</div>
+    <div class="modules-grid">
+      <% modules.forEach(function(m) { %>
+        <div class="module-card">
+          <div class="module-emoji"><%= m.emoji %></div>
+          <div class="module-info">
+            <div class="num">MÓDULO <%= m.numero %></div>
+            <h3><%= m.titulo %></h3>
+            <p><%= m.descricao %></p>
+            <a class="download" href="/download/<%= m.id %>">Baixar módulo →</a>
+          </div>
+        </div>
+      <% }); %>
+    </div>
+
+    <div class="section-title">Bônus</div>
+    <div class="bonus-card">
+      <h3>📦 Biblioteca Operação 10K</h3>
+      <p>Mais de 500 prompts, modelos, scripts, checklists e templates prontos.</p>
+      <a class="download" href="/download/biblioteca">Baixar biblioteca →</a>
+    </div>
+
+    <div class="section-title">Atualizações</div>
+    <div class="updates-list">
+      <div class="update-item"><span class="date">EM BREVE</span> Novas aulas e materiais aparecem aqui conforme forem lançados.</div>
+    </div>
+
+    <div class="section-title">Ferramentas recomendadas</div>
+    <div class="tools-row">
+      <span class="tool-chip">ChatGPT</span>
+      <span class="tool-chip">Claude</span>
+      <span class="tool-chip">Lovable</span>
+      <span class="tool-chip">Cursor</span>
+      <span class="tool-chip">Bolt</span>
+      <span class="tool-chip">Runway</span>
+      <span class="tool-chip">Veo</span>
+      <span class="tool-chip">ElevenLabs</span>
+      <span class="tool-chip">CapCut</span>
+      <span class="tool-chip">Notion</span>
+    </div>
+
+  </div>
+
+</body>
+</html>
