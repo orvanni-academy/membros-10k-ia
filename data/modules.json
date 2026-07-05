@@ -5,7 +5,7 @@
     "emoji": "🔥",
     "titulo": "O Despertar",
     "descricao": "A mudança de mercado e a mentalidade de execução.",
-    "url": "https://SEU-BUCKET-R2.com/modulo-01-o-despertar.pdf"
+    "url": "/files/modulo-01-o-despertar.pdf"
   },
   {
     "id": "modulo-02",
@@ -13,7 +13,7 @@
     "emoji": "⚡",
     "titulo": "Arsenal Bilionário",
     "descricao": "As 10 ferramentas de IA e como monetizar cada uma.",
-    "url": "https://SEU-BUCKET-R2.com/modulo-02-arsenal-bilionario.pdf"
+    "url": "/files/modulo-02-arsenal-bilionario.pdf"
   },
   {
     "id": "modulo-03",
@@ -21,7 +21,7 @@
     "emoji": "🏗",
     "titulo": "Construção Digital",
     "descricao": "Sites, landing pages, apps simples e funis.",
-    "url": "https://SEU-BUCKET-R2.com/modulo-03-construcao-digital.pdf"
+    "url": "/files/modulo-03-construcao-digital.pdf"
   },
   {
     "id": "modulo-04",
@@ -29,7 +29,7 @@
     "emoji": "🎬",
     "titulo": "Máquina de Conteúdo",
     "descricao": "Reels, scripts, copy e automação de conteúdo.",
-    "url": "https://SEU-BUCKET-R2.com/modulo-04-maquina-de-conteudo.pdf"
+    "url": "/files/modulo-04-maquina-de-conteudo.pdf"
   },
   {
     "id": "modulo-05",
@@ -37,7 +37,7 @@
     "emoji": "💰",
     "titulo": "Monetização",
     "descricao": "6 modelos de renda com IA e como escolher o seu.",
-    "url": "https://SEU-BUCKET-R2.com/modulo-05-monetizacao.pdf"
+    "url": "/files/modulo-05-monetizacao.pdf"
   },
   {
     "id": "modulo-06",
@@ -45,6 +45,6 @@
     "emoji": "🚀",
     "titulo": "Operação 10K",
     "descricao": "Plano de execução de 30, 60 e 90 dias.",
-    "url": "https://SEU-BUCKET-R2.com/modulo-06-operacao-10k.pdf"
+    "url": "/files/modulo-06-operacao-10k.pdf"
   }
 ]
